@@ -13,8 +13,14 @@
             "Skollro\\Alexa\\": "src"
         }
     },
+    "repositories": [
+        {
+	    "type": "path",
+	    "url": "../amazon-alexa-php"
+	}
+    ],
     "require": {
-        "maxbeckers/amazon-alexa-php": "^1.2"
+        "maxbeckers/amazon-alexa-php": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.4"
